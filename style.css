@@ -1,0 +1,138 @@
+ body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./Icon/library1.jpg);
+} 
+
+table {
+  margin: 10px;
+}
+
+td,th,table {
+  border: solid 1px black;
+  text-align: center;
+}
+
+th {
+  padding: 5px;
+  font-size: 20px
+}
+
+td {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+#new-btn {
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  background: blue;
+  font-weight: 800;
+  border-radius: 10px;
+  box-shadow: 1px 3px 2px rgb(0 0 0 / 58%);
+}
+
+.btns {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.read-status-btn {
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 1px 3px 2px rgb(0 0 0 / 58%);
+  background: aquamarine;
+}
+
+.rem-btn {
+  background: white;
+  background-color: wheat;
+}
+
+.rem-btn img {
+  height: 25px;
+}
+
+.Read {
+  color: white;
+  background: green;
+}
+
+.Unread {
+  background: red;
+  color: white;
+}
+
+legend {
+  text-align: center;
+  font-weight: 600;
+}
+
+label {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #db2777;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 18px;
+  border: none;
+  background: rgba(250, 250, 250, 0.727);
+  color: black;
+  border-radius: 5px;
+}
+
+input:focus{
+  border-radius: 10px;
+  outline: none;
+  border: blueviolet 2px solid;
+}
+
+form {
+  box-shadow: 1px 3px 2px rgb(0 0 0 / 58%);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  background: lightgrey;
+  font-size: 24px;
+  display: none;
+}
+
+#add-btn {
+  padding: 10px;
+  font-weight: 600;
+  align-self: center;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 40px;
+  color: white;
+  background-color: darkslateblue;
+  box-shadow: 1px 3px 2px rgb(0 0 0 / 58%);
+}
